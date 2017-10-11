@@ -42,6 +42,7 @@ class Board
 
   def in_bounds?(pos)
     return false if pos[0] < 0 || pos[0] > 7 || pos[1] < 0 || pos[1] > 7
+    true
   end
 
   def [](pos)
