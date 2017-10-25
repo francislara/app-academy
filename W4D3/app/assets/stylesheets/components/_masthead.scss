@@ -25,6 +25,7 @@
 	color: $dark-gray;
 }
 
+
 .language-nav ul {
 	display: flex;
 }
@@ -56,11 +57,11 @@
 }
 
 .masthead-links button:hover {
-	background-color: $lightest-gray;
+	background-color: $light-gray;
 }
 
 .masthead-links a,
-.masthead-links button, 
+.masthead-links button,
 .masthead-links time {
 	margin-right: 10px;
 }
