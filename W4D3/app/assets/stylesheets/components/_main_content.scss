@@ -1,0 +1,23 @@
+.main-story h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+h4 {
+  color: $gray;
+  margin: 5px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.main-story li {
+  list-style:outside;
+}
+
+.video {
+  display: flex;
+}
