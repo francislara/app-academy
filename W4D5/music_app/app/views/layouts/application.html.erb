@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>MusicApp</title>
-    <h1>Music App</h1>
+    <h1 class="main-header">Music App</h1>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
@@ -11,7 +11,7 @@
 
   <body>
     <nav>
-      <ul>
+      <ul class="sign-in-nav">
         <% if logged_in? %>
         <li class="signed-in">Signed in as <%= current_user.email %></li>
         <li><%= link_to 'Sign Out', session_url, method: 'DELETE' %></li>

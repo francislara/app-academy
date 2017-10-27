@@ -1,15 +1,21 @@
-h1 {
+.main-header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   font-family: sans-serif;
   font-weight: bold;
-  background-color: lightblue;
-  height: 55px;
+  font-size: 42px;
+  color: #a7b6ce;
+  text-transform: uppercase;
 }
 
-ul {
+
+.sign-in-nav {
   list-style: none;
+}
+
+body {
+   background-color: #111f35;
 }
 
 form {
@@ -23,12 +29,17 @@ form {
   }
 }
 
-h2 {
+.title {
   display: flex;
   justify-content: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #a7b6ce;
 }
 
-a {
+.sign-in-nav a {
   display: flex;
   float: right;
   margin: 3px;
@@ -43,7 +54,39 @@ a {
   border: solid gray 1px;
 }
 
-a:hover {
+.thing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 300px;
+  height: 150px;
+  background-color: lightgray;
+  border-radius: 4px;
+  margin: 20px;
+}
+
+.thing:hover {
+  background-color: gray;
+  transition: background-color 0.3s;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  height: 100%;
+  width: 100%;
+}
+
+.name:hover {
+  color: white;
+}
+
+.sign-in-nav a:hover {
   color: black;
   background-color: lightblue;
   border-color: darkblue;
@@ -56,5 +99,13 @@ a:hover {
   justify-content: flex-end;
   margin: 5px;
   font-family: sans-serif;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #a7b6ce;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
 }
