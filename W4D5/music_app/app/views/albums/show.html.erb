@@ -1,0 +1,11 @@
+<h1 class="title"><%= @album.title %></h1>
+
+<ul class="list">
+  <!-- <%# if @album.tracks.empty? %>
+    <li>This album has no tracks at the moment...</li>
+  <%# else %>
+    <%# @album.tracks.each do |track| %> -->
+    <li class="thing"><a class ="name" href="<%= album_url(@album) %>"> Test Track </a></li>
+    <!-- <%# end %>
+  <%# end %> -->
+</ul>
